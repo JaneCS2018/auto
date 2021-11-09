@@ -1,0 +1,161 @@
+.cert_img{
+    position: relative;
+    margin-top: 1vw;
+    border-radius: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 287px;
+    height: 172.8px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    margin: 10px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-weight: 700;
+}
+.logo{
+    position: absolute;
+    right: 7px;
+    top:2px;
+}
+
+#cert,
+#cert1{
+    position: absolute;
+    right: 3px;
+    top:25px;
+}
+
+
+.border{
+    border: 1px gray;
+    border-style: dashed;
+}
+
+#Title_card, .sub, #PartNumber_card,
+#Electrical_card, #Optical_card,
+#Title_card1,
+#Title_card_E40,
+#PartNumber_card1,
+#Electrical_card1,
+#Optical_card1,
+#PartNumber_card_E40,
+#Electrical_card_E40,
+#Electrical_card1_E40,
+#Electrical_card_E40_input,
+#Optical_card_E40_input,
+#Optical_card_E40,
+#Optical_card1_E40,
+#PartNumber_card1_E40{
+    font-size: 8.6px;
+    margin-left: 5px;
+    line-height: 1.1;
+}
+
+#PartNumber_card,
+#Electrical_card, 
+#Optical_card,
+#PartNumber_card1,
+#Electrical_card1,
+#Optical_card1,
+#PartNumber_card1_E40,
+#Electrical_card1_E40,
+#Optical_card1_E40
+{
+    padding-left: 5px;
+    letter-spacing:-0.7px;
+}
+
+#Title_card,
+#Title_card1,
+#Title_card_E40,
+#Title_card1_E40{
+    padding-top: 5px;
+}
+#Warning_card,
+#Warning_card1
+{
+    font-size: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 1.1;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    text-align: justify;
+    
+}
+
+.address_full{
+    position: absolute;
+    top:133px;
+    width:100%;
+    display: flex;
+    padding-left: 5px;
+    
+}
+
+.address
+{
+    font-size: 6px;
+    line-height: 0.9;
+    width:90px;    
+}
+
+.address_full div:nth-child(2){
+    padding-right:4px;
+  
+  }
+
+.address_full div:nth-child(3){
+    position: absolute;
+    right: 2px;     
+  }
+  
+  
+#china,
+#china1{
+    position: absolute;
+    bottom: 1px;
+    right:12px;
+    font-size: 6px;
+}
+
+.sub span{
+    font-size: 5.5px;
+    letter-spacing: -0.5px;
+}
+.sub strong{
+    font-size: 6.5px;
+    font-weight: bold;
+}
+.KJ_Fonts_title{
+    font-family: "source-han-serif-korean", serif;
+    font-size: 5px;
+    font-weight: bold;  
+}
+
+.text_ko{
+    font-size: 5.5px;
+}
+.KJ_Fonts_Warning{
+    font-family: "source-han-serif-korean", serif;
+    font-weight: bold;
+    font-size: 4.5px;
+}
+.KJ_Fonts_address{
+    font-family: "source-han-serif-korean", serif;
+    font-size: 4.9px;
+    font-weight: bold; 
+}
+#china .KJ_Fonts_address{
+    font-size: 4.9px;
+}
+
+.address_E40{
+    font-size: 6px;
+    line-height: 0.9;
+    width:99px;
+    position: absolute;
+    top:8px;
+    right: 6px; 
+
+}

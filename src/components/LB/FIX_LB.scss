@@ -1,0 +1,186 @@
+#box_label_all_fix{
+    display: flex;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 30px;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+.box_label{
+    margin-top: 15px;
+}
+
+#box_title_fix1,
+#box_title_fix2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    font-size: 19px;
+}
+
+.box_logo img{
+    position:absolute;
+    right: 22px;
+    top: 15px;
+}
+.website{
+    position:absolute;
+    right: 22px;
+    bottom: 3px;
+    font-size: 7px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading, .wrapper{
+    font-size: 10px;
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+}
+.sub_t span,
+#Made_box span{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 9px;
+}
+
+.box_heading,
+#box_heading1{
+    position: relative;
+    width: 396px;
+    background-color:black;
+    height: 77.7px;
+    border-radius: 15px 15px 0px 0px;  
+    border-width: 3px 3px 0px 3px;
+    border-color: black;
+    border-style: solid;
+}
+.heading{
+    position: relative;
+    height: 67px;
+    width: 396px;
+    padding: 0.5vh;
+    padding-left: 1vh;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.heading_fix{
+    height: 71px;
+}
+.Made_box{
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    font-size: 8px;
+}
+
+/* Grid container */
+.wrapper{
+    display: flex;
+}
+.sec_1{
+    width: 230px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.sec_1 div{
+    height: 35px;
+    padding: 1px;
+    padding-left: 6px;
+    border-bottom: 3px solid black;
+   
+}
+.sec_fix div{
+    height: 58px;
+}
+
+.item.sub_t.fix{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    /* padding: 10px; */
+}
+.sec_2{
+    position: relative;
+    width:166px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#sec_2,
+#sec_2_fix,
+#sec_3,
+#sec_4,
+#sec_fix1,
+#sec_fix2,
+#sec_1_E40,
+#sec_2_E40,
+#sec_c_E40,
+#sec_c_E402,
+#sec_2_feu,
+#sec_c_FEU,
+#sec_2_feu_1,
+#sec_c_FEU2{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.footer{
+    position: relative;
+    height: 65px;
+    width: 396px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-radius: 0 0 15px 15px;
+}
+.footer_fix{
+    height: 78px;
+}
+.footer_C{
+    display: flex;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: 8px;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
+
+
+.sub_t strong{
+    font-size: 10px;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    padding-left:5px;
+    font-weight: 700;
+}
+
+.btn_text{
+    font-size: 12px;
+    padding: 5px;
+}
+.Korea_supplier{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: 9px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-weight: 200;
+}
+
+::placeholder{
+    font-size: 14px;
+    color: lightgrey;
+    }
+
+ .barcode
+    {
+        width: 100px;
+        height: 60px;
+        position: absolute;
+        left: 4px;
+    }
+

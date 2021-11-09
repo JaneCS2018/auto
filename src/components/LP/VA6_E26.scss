@@ -1,0 +1,332 @@
+#VA6_E27_LP4_Input,
+#VA6_E26_LP1_Input{
+   position: relative;
+   width: 234.24px;
+   height: 60px;
+   font-family:'Arial Narrow', sans-serif;
+   border: 0.5px solid black;
+   padding: 2px;
+}
+
+#VA6_E27_LP4_Output,
+#VA6_E26_LP1_Output{
+   position: relative;
+   width: 234.24px;
+   height: 45.12px;
+   font-family:'Arial Narrow', sans-serif;
+   padding: 2px;
+   margin-top: 12px;
+}
+#VA6_E27_LP5_Output{
+    position: relative;
+    width: 234.24px;
+    height: 45.12px;
+    font-family:'Arial Narrow', sans-serif;
+    padding: 2px;
+}
+.Border_VA6{
+   border: 0.5px solid black;
+}
+.sub_VA6{
+   font-size: 6.5px;
+   line-height: 0.9;
+   font-weight: 700;
+}
+.sub_insert{
+   padding-left: 5px;
+}
+.sub_VA6 strong{
+   font-size: 5px;
+   font-family:'Arial Narrow',  sans-serif;
+   font-weight: 800;
+}
+
+.sub_VA6 span{
+   font-size: 4px;
+   font-family:'Arial Narrow', sans-serif;
+}
+
+#VA6_Cert_Input,
+#VA6_Cert_Output,
+#VA6_E26_Cert_Output,
+#VA6_E26_Cert_Input
+{
+   position: absolute;
+   top: 2px;
+   right: 1px;
+}
+.VA6_E27_LP5_Input,
+.VA6_E26_LP2_Input{
+   position: relative;
+   width: 234.24px;
+   height: 45.12px;
+   border: 0.5px solid black;
+   display: flex;
+}
+
+.VA6_E26_LP2_Output{
+   position: relative;
+   width: 234.24px;
+   height: 45.12px;
+   display: flex;
+   font-size: 6px;
+   font-family:'Arial Narrow', Arial, sans-serif;
+   line-height: 1;
+   padding: 2px;
+}
+
+.Filamento_address{
+   font-size: 6px;
+   font-family:'Arial Narrow', Arial, sans-serif;
+   line-height: 1;
+   padding: 5px;
+   font-weight: bold;
+}
+
+.VA6_E26_LP2_Input{
+   position: relative;
+   font-size: 6px;
+   font-family:'Arial Narrow', Arial, sans-serif;
+   line-height: 1;
+   padding: 2px;
+}
+.All_address{
+   display: flex;
+}
+
+.All_address div{
+  width: 33%; 
+  margin-right: 3px;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 5px;
+
+}
+
+.E26_Made{
+   position: absolute;
+   bottom: 0.2px;
+   right: 6px;
+   font-weight: bold;
+}
+.VA6_E27_Made_Input{
+   font-family:'Arial Narrow', Arial, sans-serif;
+   text-align: right;
+   font-size: 6px;
+   line-height: 1;
+   position: absolute;
+   right:5px;
+   top: 5px;
+   font-weight: bold;
+}
+
+
+#VA6_E27_LP6_Input,
+#VA6_E27_LP6_Output,
+#VA6_E26_LP3_Input,
+#VA6_E26_LP3_Output{
+   font-family:'Arial Narrow', sans-serif;
+   width: 234.24px;
+   height: 45.12px;
+   font-size: 3.5px;
+   line-height: 1.2;
+   text-align: justify;
+   padding-top: 1px;
+   padding: 1px;
+   color: black;
+   font-weight: bold;
+   margin-top: 15px;
+}
+
+#VA6_E27_LP6_Input,
+#VA6_E26_LP3_Input{
+   border: 0.5px solid black;
+}
+
+/* Box Label Input */
+#box_title_E27_Input_1,
+#box_title_E27_C_1,
+#VA6_E26_BoxTitle_Input,
+#VA6_E39_BoxTitle_Input_1,
+#box_title_E40_Input_1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 100;
+   position: absolute;
+   top: 35px;
+   left: 10px;
+   font-size: 19px;
+}
+
+/* Box image */
+#sec_1_E27,
+#sec_c_E27,
+#VA6_Box_Image_Output_1,
+#VA6_Box_Image_Output_2,
+#VA6_Box_Image_Input{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%, -50%);
+}
+
+
+
+#barcode_E27,
+#barcode_E26,
+#barcode_E39{
+   width: 100px;
+   height: 60px;
+   position: absolute;
+   left: 4px;
+}
+
+/* E39 & E40 */
+#VA6_E39_LP1_Input,
+#VA6_E40_LP4_Input{
+   width: 192px;
+   height: 72px;
+   border: 0.5px solid black;
+   padding: 2px;
+   font-family:'Arial Narrow', sans-serif;
+   
+}
+
+#VA6_E39_LP1_Output,
+#VA6_E40_LP4_Output{
+   width: 192px;
+   height: 72px;
+   padding: 2px;
+   font-family:'Arial Narrow', sans-serif;
+   margin-top: 10px;
+   font-weight: bold;
+}
+
+#VA6_E39_LP2_Input,
+#VA6_E40_LP5_Input
+{
+   width: 288px;
+   height: 72px;
+   border: 0.5px solid black;
+   font-family:'Arial Narrow', sans-serif;
+   font-size: 4.5px;
+   line-height: 1;
+   text-align: justify;
+   padding: 2px;
+}
+
+#VA6_E39_LP2_Output,
+#VA6_E40_LP5_Output{
+   width: 288px;
+   height: 72px;
+   font-family:'Arial Narrow', sans-serif;
+   font-size: 4.5px;
+   line-height: 1.5;
+   text-align: justify;
+   padding: 2px;
+   margin-top: 10px;
+   font-weight: bold;
+}
+
+#VA6_E39_LP3_Input,
+#VA6_E39_LP4_Input,
+#VA6_E40_LP6_Input,
+#VA6_E40_LP7_Input
+{
+   width: 384px;
+   height: 24px;
+   border: 0.5px solid black;
+   font-family:'Arial Narrow', sans-serif;
+}
+#VA6_E40_LP6_Output,
+#VA6_E40_LP7_Output{
+   width: 384px;
+   height: 24px;
+   font-family:'Arial Narrow', sans-serif;
+}
+
+#VA6_E39_LP3_Output,
+#VA6_E39_LP4_Output,
+#VA6_E40_LP6_Output,
+#VA6_E40_LP7_Output{
+   width: 384px;
+   height: 24px;
+   font-family:'Arial Narrow', sans-serif;
+   margin-top: 10px;
+}
+.E39_All_Address{
+   display: flex;
+   padding: 1.5px;
+   font-weight: bold;
+}
+
+.E39_All_Address .address{
+   width: 125px;
+   margin-right: 5px;
+   line-height: 1.1;
+   font-size: 5px;
+}
+
+#VA6_E39_LP3_Input,
+#VA6_E39_LP3_Output,
+#VA6_E40_LP6_Input,
+#VA6_E40_LP6_Output{
+   display: flex;
+   position: relative;
+   margin-top: 10px;
+}
+.VA6_E39_Made{
+   position: absolute;
+   font-size: 7px;
+   line-height: 0.8;
+   right: 5px;
+   bottom: 3px;
+   font-weight: bold;
+}
+.VA6_E39_Made_2{
+   position: absolute;
+   font-size: 7px;
+   line-height: 1;
+   right: 70px;
+   bottom: 4px;
+}
+
+#VA6_E39_LP3_Input_Cert,
+#VA6_E39_LP3_Input_Cert_2{
+   width: 220px;
+   position: absolute;
+   left: 131px;
+   height: 18px;
+   bottom: 1px;
+}
+
+#VA6_E40_LP6_Input_Cert,
+#VA6_E40_LP6_Input_Cert_2{
+   position: absolute;
+   left: 98px;
+   height: 19px;
+   bottom: 1px;
+   transform: scale(0.9,0.9);
+}
+
+.E39_logo{
+   position: relative;
+}
+.E39_logo img{
+   position: absolute;
+   bottom: 1px;
+   left: 3px;
+}
+.sub_VA6_E39{
+   font-size: 8.3px;
+   font-family:'Arial Narrow', sans-serif;
+   line-height: 1.3;
+}
+.sub_VA6_E39 span{
+   font-size: 5px;
+   font-family:'Arial Narrow', sans-serif;
+}
+.sub_VA6_E39 strong{
+   font-size: 6px;
+   font-family:'Arial Narrow', sans-serif;
+   font-weight: 800;
+}

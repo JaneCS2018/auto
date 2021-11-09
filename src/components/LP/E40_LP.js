@@ -1,0 +1,37 @@
+import React from "react";
+import './X39_LP.scss'
+
+
+function E40_LP({border, id, title, PartNumber_code, Electrical, Optical, Warning, Cert, logo_black}) {
+  return (
+    <div className={border?"cert_img":"cert_img border"} id={id}>
+       <div className="logo"><img src={logo_black} alt="Logo" /></div>
+               <div id="cert"><img src={Cert} width="100px" alt="UL Certification" /></div>
+               <div id="Title_card" className="sub">{title}</div>
+               <div className="sub">Part# <strong>(de Pieza, <span>부품, 部品</span>)</strong></div>
+               <div id="PartNumber_card">{PartNumber_code}</div>
+               <div className="sub">Electrical Input: <strong>(Entrada de Electricidad, <span>정격입력, 電気入力</span>)</strong></div>
+               <div id="Electrical_card">{Electrical}</div>
+               <div className="sub">Optical Input: <strong>(Salida óptica, <span>광출력, 光出力</span>)</strong></div>
+               <div id="Optical_card">{Optical}</div>
+               <div id="Warning_card">{Warning}</div>
+               <div className="address_full">
+                  <div className="address_E40">
+                            FILAMENTO USA: www.Filamento.com<br />
+                            (+1) 408-475-0038 <br /> 
+                            3031 Tisch Way, 110 Plaza West, San Jose, CA, 95128, USA
+                  </div>
+
+               </div>
+               <div className="sub" id="china">Made In China In China hergestellt Fabriqué en Chine <span className="KJ_Fonts_address"> 中國製造 中国制造</span></div>
+
+    </div>
+     
+
+    
+   )
+  
+   
+  }
+
+export default E40_LP
