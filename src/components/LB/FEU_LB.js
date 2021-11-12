@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './FEU_LB.scss'
 import JsBarcode from "jsbarcode";
 
@@ -6,7 +6,10 @@ import JsBarcode from "jsbarcode";
 
 function FEU_LB({title, logo, BoxLabel_id, PartNumber, Product_code, Electrical, Optical, Barcode, Box_image,  E40_cert_c, E40_Electrical_c, E40_Optical_c, E40_Configuration_c, E40_Dimension_c}) {
 
-    JsBarcode(".barcode").init();
+    useEffect(() => {
+        JsBarcode(".barcode").init()
+       });
+
     
     return (
       <div id={BoxLabel_id}>

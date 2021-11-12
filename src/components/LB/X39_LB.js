@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './X39_LB.scss'
 import JsBarcode from "jsbarcode";
 
@@ -16,7 +16,9 @@ function X39_LB({mo,logo,title, BoxLabel_id, PartNumber, Product_code, Electrica
         socket='E26'
     }
 
-    JsBarcode(".barcode").init();
+    useEffect(() => {
+        JsBarcode(".barcode").init()
+       });
 
     return (
     <div id={BoxLabel_id}>    

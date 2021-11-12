@@ -1,12 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './FIX_LB.scss'
 import JsBarcode from "jsbarcode";
 
 
 
 function FIX_LB({title, logo, BoxLabel_id, PartNumber, Product_code, Electrical, Optical, Barcode, Box_image}) {
- 
-    JsBarcode(".barcode").init();
+    useEffect(() => {
+        JsBarcode(".barcode").init()
+       });
 
     return (
       <div id={BoxLabel_id}>
@@ -92,6 +93,11 @@ function FIX_LB({title, logo, BoxLabel_id, PartNumber, Product_code, Electrical,
                         jsbarcode-textmargin="0"
                         jsbarcode-fontoptions="bold">
                     </svg>
+                    <div className="BoxLabel_Korean">
+                    공급처 ㈜세미백아이엔씨 써비스센터 연락처제조자:<br />
+                    불산 HuaQuan 전기 조명 CO., LTD. <br />
+                    HU11458-18001A (안전인증번호) (+82) 031-591-318 <br />
+                    </div> 
 
             </div>
         </div>
